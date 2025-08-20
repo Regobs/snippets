@@ -136,7 +136,7 @@ async function main() {
   }) as bigint
   console.log(`Your vault share balance (raw): ${shareBal.toString()}`)
 
-  console.log('Done ✅')
+  console.log('Done')
 }
 
 main().catch((e) => {
